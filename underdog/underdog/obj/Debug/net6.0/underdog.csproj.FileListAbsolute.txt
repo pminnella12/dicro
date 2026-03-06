@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/underdog/underdog/bin/Debug/net6.0/underdog
+/Users/michaelminnella/Projects/underdog/underdog/bin/Debug/net6.0/underdog.deps.json
+/Users/michaelminnella/Projects/underdog/underdog/bin/Debug/net6.0/underdog.runtimeconfig.json
+/Users/michaelminnella/Projects/underdog/underdog/bin/Debug/net6.0/underdog.dll
+/Users/michaelminnella/Projects/underdog/underdog/bin/Debug/net6.0/underdog.pdb
+/Users/michaelminnella/Projects/underdog/underdog/obj/Debug/net6.0/underdog.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/underdog/underdog/obj/Debug/net6.0/underdog.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/underdog/underdog/obj/Debug/net6.0/underdog.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/underdog/underdog/obj/Debug/net6.0/underdog.AssemblyInfo.cs
+/Users/michaelminnella/Projects/underdog/underdog/obj/Debug/net6.0/underdog.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/underdog/underdog/obj/Debug/net6.0/underdog.dll
+/Users/michaelminnella/Projects/underdog/underdog/obj/Debug/net6.0/refint/underdog.dll
+/Users/michaelminnella/Projects/underdog/underdog/obj/Debug/net6.0/underdog.pdb
+/Users/michaelminnella/Projects/underdog/underdog/obj/Debug/net6.0/underdog.genruntimeconfig.cache
+/Users/michaelminnella/Projects/underdog/underdog/obj/Debug/net6.0/ref/underdog.dll

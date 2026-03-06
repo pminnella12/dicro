@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{E4A55631-66C5-47FB-8E65-0DB304423654}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Trees/Program.cs">
+    <Files>
+      <File FileName="Trees/Program.cs" Line="11" Column="15" />
+      <File FileName="Trees/TreeNode.cs" Line="20" Column="1" />
+      <File FileName="Trees/TreeTraverseExample.cs" Line="110" Column="34" />
+      <File FileName="Trees/SpecialSum.cs" Line="69" Column="1" />
+      <File FileName="Trees/CommonAncestor.cs" Line="20" Column="1" />
+      <File FileName="Trees/TreeTraverseUtil.cs" Line="124" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Trees" expanded="True">
+            <Node name="Trees" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>deltas[i]</Value>
+          <Value>numbersStack</Value>
+          <Value>opStack</Value>
+          <Value>head</Value>
+          <Value>tempNode</Value>
+          <Value>newNode</Value>
+          <Value>arr[i]</Value>
+          <Value>arr[j]</Value>
+          <Value>arr</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/michaelminnella/Projects/Trees/Trees/CreateLinkedListFromTree.cs" relfile="Trees/CreateLinkedListFromTree.cs" line="29" column="1" />
+      <Breakpoint file="/Users/michaelminnella/Projects/Trees/Trees/CreateLinkedListFromTree.cs" relfile="Trees/CreateLinkedListFromTree.cs" line="40" column="1" />
+      <Breakpoint file="/Users/michaelminnella/Projects/Trees/Trees/CreateLinkedListFromTree.cs" relfile="Trees/CreateLinkedListFromTree.cs" line="31" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Trees PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/MergeSortedArrays/MergeSortedArrays/bin/Debug/net6.0/MergeSortedArrays
+/Users/michaelminnella/Projects/MergeSortedArrays/MergeSortedArrays/bin/Debug/net6.0/MergeSortedArrays.deps.json
+/Users/michaelminnella/Projects/MergeSortedArrays/MergeSortedArrays/bin/Debug/net6.0/MergeSortedArrays.runtimeconfig.json
+/Users/michaelminnella/Projects/MergeSortedArrays/MergeSortedArrays/bin/Debug/net6.0/MergeSortedArrays.dll
+/Users/michaelminnella/Projects/MergeSortedArrays/MergeSortedArrays/bin/Debug/net6.0/MergeSortedArrays.pdb
+/Users/michaelminnella/Projects/MergeSortedArrays/MergeSortedArrays/obj/Debug/net6.0/MergeSortedArrays.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/MergeSortedArrays/MergeSortedArrays/obj/Debug/net6.0/MergeSortedArrays.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/MergeSortedArrays/MergeSortedArrays/obj/Debug/net6.0/MergeSortedArrays.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/MergeSortedArrays/MergeSortedArrays/obj/Debug/net6.0/MergeSortedArrays.AssemblyInfo.cs
+/Users/michaelminnella/Projects/MergeSortedArrays/MergeSortedArrays/obj/Debug/net6.0/MergeSortedArrays.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/MergeSortedArrays/MergeSortedArrays/obj/Debug/net6.0/MergeSortedArrays.dll
+/Users/michaelminnella/Projects/MergeSortedArrays/MergeSortedArrays/obj/Debug/net6.0/refint/MergeSortedArrays.dll
+/Users/michaelminnella/Projects/MergeSortedArrays/MergeSortedArrays/obj/Debug/net6.0/MergeSortedArrays.pdb
+/Users/michaelminnella/Projects/MergeSortedArrays/MergeSortedArrays/obj/Debug/net6.0/MergeSortedArrays.genruntimeconfig.cache
+/Users/michaelminnella/Projects/MergeSortedArrays/MergeSortedArrays/obj/Debug/net6.0/ref/MergeSortedArrays.dll

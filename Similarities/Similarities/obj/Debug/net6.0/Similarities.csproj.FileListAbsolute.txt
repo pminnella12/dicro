@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/Similarities/Similarities/obj/Debug/net6.0/Similarities.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/Similarities/Similarities/obj/Debug/net6.0/Similarities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/Similarities/Similarities/obj/Debug/net6.0/Similarities.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/Similarities/Similarities/obj/Debug/net6.0/Similarities.AssemblyInfo.cs
+/Users/michaelminnella/Projects/Similarities/Similarities/obj/Debug/net6.0/Similarities.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/Similarities/Similarities/bin/Debug/net6.0/Similarities
+/Users/michaelminnella/Projects/Similarities/Similarities/bin/Debug/net6.0/Similarities.deps.json
+/Users/michaelminnella/Projects/Similarities/Similarities/bin/Debug/net6.0/Similarities.runtimeconfig.json
+/Users/michaelminnella/Projects/Similarities/Similarities/bin/Debug/net6.0/Similarities.dll
+/Users/michaelminnella/Projects/Similarities/Similarities/bin/Debug/net6.0/Similarities.pdb
+/Users/michaelminnella/Projects/Similarities/Similarities/obj/Debug/net6.0/Similarities.dll
+/Users/michaelminnella/Projects/Similarities/Similarities/obj/Debug/net6.0/refint/Similarities.dll
+/Users/michaelminnella/Projects/Similarities/Similarities/obj/Debug/net6.0/Similarities.pdb
+/Users/michaelminnella/Projects/Similarities/Similarities/obj/Debug/net6.0/Similarities.genruntimeconfig.cache
+/Users/michaelminnella/Projects/Similarities/Similarities/obj/Debug/net6.0/ref/Similarities.dll

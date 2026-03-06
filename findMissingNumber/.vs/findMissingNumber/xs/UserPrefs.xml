@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{B3224CCC-AE08-4FB5-891F-6948F14F121C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="findMissingNumber/Program.cs">
+    <Files>
+      <File FileName="findMissingNumber/Program.cs" Line="40" Column="50" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="findMissingNumber" expanded="True">
+            <Node name="findMissingNumber" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>arr</Value>
+          <Value>i</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.findMissingNumber PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

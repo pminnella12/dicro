@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FindLargestSubArray/1.0.0": {
+        "runtime": {
+          "FindLargestSubArray.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FindLargestSubArray/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{F4E47042-F3BD-4321-9749-0BE089F193E4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SlidingWindowMaximum/Program.cs">
+    <Files>
+      <File FileName="SlidingWindowMaximum/Program.cs" Line="40" Column="105" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SlidingWindowMaximum" expanded="True">
+            <Node name="SlidingWindowMaximum" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>deltas[i]</Value>
+          <Value>numbersStack</Value>
+          <Value>opStack</Value>
+          <Value>head</Value>
+          <Value>tempNode</Value>
+          <Value>newNode</Value>
+          <Value>arr[i]</Value>
+          <Value>arr[j]</Value>
+          <Value>arr</Value>
+          <Value>queue</Value>
+          <Value>results</Value>
+          <Value>highest</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.SlidingWindowMaximum PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/michaelminnella/Projects/SlidingWindowMaximum/SlidingWindowMaximum/Program.cs" relfile="SlidingWindowMaximum/Program.cs" line="90" column="1" />
+      <Breakpoint file="/Users/michaelminnella/Projects/SlidingWindowMaximum/SlidingWindowMaximum/Program.cs" relfile="SlidingWindowMaximum/Program.cs" line="75" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

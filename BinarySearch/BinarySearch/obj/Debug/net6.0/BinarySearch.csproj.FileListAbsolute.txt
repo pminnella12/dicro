@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/BinarySearch/BinarySearch/obj/Debug/net6.0/BinarySearch.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/BinarySearch/BinarySearch/obj/Debug/net6.0/BinarySearch.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/BinarySearch/BinarySearch/obj/Debug/net6.0/BinarySearch.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/BinarySearch/BinarySearch/obj/Debug/net6.0/BinarySearch.AssemblyInfo.cs
+/Users/michaelminnella/Projects/BinarySearch/BinarySearch/obj/Debug/net6.0/BinarySearch.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/BinarySearch/BinarySearch/bin/Debug/net6.0/BinarySearch
+/Users/michaelminnella/Projects/BinarySearch/BinarySearch/bin/Debug/net6.0/BinarySearch.deps.json
+/Users/michaelminnella/Projects/BinarySearch/BinarySearch/bin/Debug/net6.0/BinarySearch.runtimeconfig.json
+/Users/michaelminnella/Projects/BinarySearch/BinarySearch/bin/Debug/net6.0/BinarySearch.dll
+/Users/michaelminnella/Projects/BinarySearch/BinarySearch/bin/Debug/net6.0/BinarySearch.pdb
+/Users/michaelminnella/Projects/BinarySearch/BinarySearch/obj/Debug/net6.0/BinarySearch.dll
+/Users/michaelminnella/Projects/BinarySearch/BinarySearch/obj/Debug/net6.0/refint/BinarySearch.dll
+/Users/michaelminnella/Projects/BinarySearch/BinarySearch/obj/Debug/net6.0/BinarySearch.pdb
+/Users/michaelminnella/Projects/BinarySearch/BinarySearch/obj/Debug/net6.0/BinarySearch.genruntimeconfig.cache
+/Users/michaelminnella/Projects/BinarySearch/BinarySearch/obj/Debug/net6.0/ref/BinarySearch.dll

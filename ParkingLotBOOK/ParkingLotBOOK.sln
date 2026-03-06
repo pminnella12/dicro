@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingLotBOOK", "ParkingLotBOOK\ParkingLotBOOK.csproj", "{313D0DA2-0D17-40F1-99CA-B36687FAD588}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{313D0DA2-0D17-40F1-99CA-B36687FAD588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313D0DA2-0D17-40F1-99CA-B36687FAD588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{313D0DA2-0D17-40F1-99CA-B36687FAD588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{313D0DA2-0D17-40F1-99CA-B36687FAD588}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78D1FA27-4FE8-4771-BB7B-DAD34C925003}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/ParkingLotBOOK/ParkingLotBOOK/bin/Debug/net6.0/ParkingLotBOOK
+/Users/michaelminnella/Projects/ParkingLotBOOK/ParkingLotBOOK/bin/Debug/net6.0/ParkingLotBOOK.deps.json
+/Users/michaelminnella/Projects/ParkingLotBOOK/ParkingLotBOOK/bin/Debug/net6.0/ParkingLotBOOK.runtimeconfig.json
+/Users/michaelminnella/Projects/ParkingLotBOOK/ParkingLotBOOK/bin/Debug/net6.0/ParkingLotBOOK.dll
+/Users/michaelminnella/Projects/ParkingLotBOOK/ParkingLotBOOK/bin/Debug/net6.0/ParkingLotBOOK.pdb
+/Users/michaelminnella/Projects/ParkingLotBOOK/ParkingLotBOOK/obj/Debug/net6.0/ParkingLotBOOK.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/ParkingLotBOOK/ParkingLotBOOK/obj/Debug/net6.0/ParkingLotBOOK.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/ParkingLotBOOK/ParkingLotBOOK/obj/Debug/net6.0/ParkingLotBOOK.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/ParkingLotBOOK/ParkingLotBOOK/obj/Debug/net6.0/ParkingLotBOOK.AssemblyInfo.cs
+/Users/michaelminnella/Projects/ParkingLotBOOK/ParkingLotBOOK/obj/Debug/net6.0/ParkingLotBOOK.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/ParkingLotBOOK/ParkingLotBOOK/obj/Debug/net6.0/ParkingLotBOOK.dll
+/Users/michaelminnella/Projects/ParkingLotBOOK/ParkingLotBOOK/obj/Debug/net6.0/refint/ParkingLotBOOK.dll
+/Users/michaelminnella/Projects/ParkingLotBOOK/ParkingLotBOOK/obj/Debug/net6.0/ParkingLotBOOK.pdb
+/Users/michaelminnella/Projects/ParkingLotBOOK/ParkingLotBOOK/obj/Debug/net6.0/ParkingLotBOOK.genruntimeconfig.cache
+/Users/michaelminnella/Projects/ParkingLotBOOK/ParkingLotBOOK/obj/Debug/net6.0/ref/ParkingLotBOOK.dll

@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/KthLargest/KthLargest/obj/Debug/net6.0/KthLargest.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/KthLargest/KthLargest/obj/Debug/net6.0/KthLargest.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/KthLargest/KthLargest/obj/Debug/net6.0/KthLargest.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/KthLargest/KthLargest/obj/Debug/net6.0/KthLargest.AssemblyInfo.cs
+/Users/michaelminnella/Projects/KthLargest/KthLargest/obj/Debug/net6.0/KthLargest.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/KthLargest/KthLargest/bin/Debug/net6.0/KthLargest
+/Users/michaelminnella/Projects/KthLargest/KthLargest/bin/Debug/net6.0/KthLargest.deps.json
+/Users/michaelminnella/Projects/KthLargest/KthLargest/bin/Debug/net6.0/KthLargest.runtimeconfig.json
+/Users/michaelminnella/Projects/KthLargest/KthLargest/bin/Debug/net6.0/KthLargest.dll
+/Users/michaelminnella/Projects/KthLargest/KthLargest/bin/Debug/net6.0/KthLargest.pdb
+/Users/michaelminnella/Projects/KthLargest/KthLargest/obj/Debug/net6.0/KthLargest.dll
+/Users/michaelminnella/Projects/KthLargest/KthLargest/obj/Debug/net6.0/refint/KthLargest.dll
+/Users/michaelminnella/Projects/KthLargest/KthLargest/obj/Debug/net6.0/KthLargest.pdb
+/Users/michaelminnella/Projects/KthLargest/KthLargest/obj/Debug/net6.0/KthLargest.genruntimeconfig.cache
+/Users/michaelminnella/Projects/KthLargest/KthLargest/obj/Debug/net6.0/ref/KthLargest.dll

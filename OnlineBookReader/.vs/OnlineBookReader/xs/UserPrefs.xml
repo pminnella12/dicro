@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{46F8C45E-20D6-4A21-920D-33EB4F7C6032}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OnlineBookReader/Program.cs">
+    <Files>
+      <File FileName="OnlineBookReader/Program.cs" Line="247" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OnlineBookReader" expanded="True">
+            <Node name="OnlineBookReader" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>deltas[i]</Value>
+          <Value>numbersStack</Value>
+          <Value>opStack</Value>
+          <Value>head</Value>
+          <Value>tempNode</Value>
+          <Value>newNode</Value>
+          <Value>arr[i]</Value>
+          <Value>arr[j]</Value>
+          <Value>arr</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.OnlineBookReader FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

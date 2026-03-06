@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/DataStructures/DataStructures/bin/Debug/net6.0/DataStructures
+/Users/michaelminnella/Projects/DataStructures/DataStructures/bin/Debug/net6.0/DataStructures.deps.json
+/Users/michaelminnella/Projects/DataStructures/DataStructures/bin/Debug/net6.0/DataStructures.runtimeconfig.json
+/Users/michaelminnella/Projects/DataStructures/DataStructures/bin/Debug/net6.0/DataStructures.dll
+/Users/michaelminnella/Projects/DataStructures/DataStructures/bin/Debug/net6.0/DataStructures.pdb
+/Users/michaelminnella/Projects/DataStructures/DataStructures/obj/Debug/net6.0/DataStructures.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/DataStructures/DataStructures/obj/Debug/net6.0/DataStructures.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/DataStructures/DataStructures/obj/Debug/net6.0/DataStructures.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/DataStructures/DataStructures/obj/Debug/net6.0/DataStructures.AssemblyInfo.cs
+/Users/michaelminnella/Projects/DataStructures/DataStructures/obj/Debug/net6.0/DataStructures.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/DataStructures/DataStructures/obj/Debug/net6.0/DataStructures.dll
+/Users/michaelminnella/Projects/DataStructures/DataStructures/obj/Debug/net6.0/refint/DataStructures.dll
+/Users/michaelminnella/Projects/DataStructures/DataStructures/obj/Debug/net6.0/DataStructures.pdb
+/Users/michaelminnella/Projects/DataStructures/DataStructures/obj/Debug/net6.0/DataStructures.genruntimeconfig.cache
+/Users/michaelminnella/Projects/DataStructures/DataStructures/obj/Debug/net6.0/ref/DataStructures.dll

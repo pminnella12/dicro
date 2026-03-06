@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/MaxActivites/MaxActivites/bin/Debug/net6.0/MaxActivites
+/Users/michaelminnella/Projects/MaxActivites/MaxActivites/bin/Debug/net6.0/MaxActivites.deps.json
+/Users/michaelminnella/Projects/MaxActivites/MaxActivites/bin/Debug/net6.0/MaxActivites.runtimeconfig.json
+/Users/michaelminnella/Projects/MaxActivites/MaxActivites/bin/Debug/net6.0/MaxActivites.dll
+/Users/michaelminnella/Projects/MaxActivites/MaxActivites/bin/Debug/net6.0/MaxActivites.pdb
+/Users/michaelminnella/Projects/MaxActivites/MaxActivites/obj/Debug/net6.0/MaxActivites.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/MaxActivites/MaxActivites/obj/Debug/net6.0/MaxActivites.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/MaxActivites/MaxActivites/obj/Debug/net6.0/MaxActivites.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/MaxActivites/MaxActivites/obj/Debug/net6.0/MaxActivites.AssemblyInfo.cs
+/Users/michaelminnella/Projects/MaxActivites/MaxActivites/obj/Debug/net6.0/MaxActivites.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/MaxActivites/MaxActivites/obj/Debug/net6.0/MaxActivites.dll
+/Users/michaelminnella/Projects/MaxActivites/MaxActivites/obj/Debug/net6.0/refint/MaxActivites.dll
+/Users/michaelminnella/Projects/MaxActivites/MaxActivites/obj/Debug/net6.0/MaxActivites.pdb
+/Users/michaelminnella/Projects/MaxActivites/MaxActivites/obj/Debug/net6.0/MaxActivites.genruntimeconfig.cache
+/Users/michaelminnella/Projects/MaxActivites/MaxActivites/obj/Debug/net6.0/ref/MaxActivites.dll

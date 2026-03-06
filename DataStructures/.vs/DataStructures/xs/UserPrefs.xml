@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{F991A0F1-8FCD-437C-B8E8-2B53969DF6EC}|Default">
+  <MonoDevelop.Ide.ItemProperties.DataStructures PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataStructures/Program.cs">
+    <Files>
+      <File FileName="DataStructures/Program.cs" Line="182" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DataStructures" expanded="True">
+            <Node name="DataStructures" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>deltas[i]</Value>
+          <Value>numbersStack</Value>
+          <Value>opStack</Value>
+          <Value>head</Value>
+          <Value>tempNode</Value>
+          <Value>newNode</Value>
+          <Value>arr[i]</Value>
+          <Value>arr[j]</Value>
+          <Value>arr</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

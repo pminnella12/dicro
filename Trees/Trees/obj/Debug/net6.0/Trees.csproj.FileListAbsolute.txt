@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/Trees/Trees/obj/Debug/net6.0/Trees.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/Trees/Trees/obj/Debug/net6.0/Trees.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/Trees/Trees/obj/Debug/net6.0/Trees.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/Trees/Trees/obj/Debug/net6.0/Trees.AssemblyInfo.cs
+/Users/michaelminnella/Projects/Trees/Trees/obj/Debug/net6.0/Trees.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/Trees/Trees/bin/Debug/net6.0/Trees
+/Users/michaelminnella/Projects/Trees/Trees/bin/Debug/net6.0/Trees.deps.json
+/Users/michaelminnella/Projects/Trees/Trees/bin/Debug/net6.0/Trees.runtimeconfig.json
+/Users/michaelminnella/Projects/Trees/Trees/bin/Debug/net6.0/Trees.dll
+/Users/michaelminnella/Projects/Trees/Trees/bin/Debug/net6.0/Trees.pdb
+/Users/michaelminnella/Projects/Trees/Trees/obj/Debug/net6.0/Trees.dll
+/Users/michaelminnella/Projects/Trees/Trees/obj/Debug/net6.0/refint/Trees.dll
+/Users/michaelminnella/Projects/Trees/Trees/obj/Debug/net6.0/Trees.pdb
+/Users/michaelminnella/Projects/Trees/Trees/obj/Debug/net6.0/Trees.genruntimeconfig.cache
+/Users/michaelminnella/Projects/Trees/Trees/obj/Debug/net6.0/ref/Trees.dll

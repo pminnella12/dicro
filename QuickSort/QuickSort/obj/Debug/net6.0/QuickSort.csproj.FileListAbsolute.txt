@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/QuickSort/QuickSort/obj/Debug/net6.0/QuickSort.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/QuickSort/QuickSort/obj/Debug/net6.0/QuickSort.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/QuickSort/QuickSort/obj/Debug/net6.0/QuickSort.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/QuickSort/QuickSort/obj/Debug/net6.0/QuickSort.AssemblyInfo.cs
+/Users/michaelminnella/Projects/QuickSort/QuickSort/obj/Debug/net6.0/QuickSort.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/QuickSort/QuickSort/bin/Debug/net6.0/QuickSort
+/Users/michaelminnella/Projects/QuickSort/QuickSort/bin/Debug/net6.0/QuickSort.deps.json
+/Users/michaelminnella/Projects/QuickSort/QuickSort/bin/Debug/net6.0/QuickSort.runtimeconfig.json
+/Users/michaelminnella/Projects/QuickSort/QuickSort/bin/Debug/net6.0/QuickSort.dll
+/Users/michaelminnella/Projects/QuickSort/QuickSort/bin/Debug/net6.0/QuickSort.pdb
+/Users/michaelminnella/Projects/QuickSort/QuickSort/obj/Debug/net6.0/QuickSort.dll
+/Users/michaelminnella/Projects/QuickSort/QuickSort/obj/Debug/net6.0/refint/QuickSort.dll
+/Users/michaelminnella/Projects/QuickSort/QuickSort/obj/Debug/net6.0/QuickSort.pdb
+/Users/michaelminnella/Projects/QuickSort/QuickSort/obj/Debug/net6.0/QuickSort.genruntimeconfig.cache
+/Users/michaelminnella/Projects/QuickSort/QuickSort/obj/Debug/net6.0/ref/QuickSort.dll

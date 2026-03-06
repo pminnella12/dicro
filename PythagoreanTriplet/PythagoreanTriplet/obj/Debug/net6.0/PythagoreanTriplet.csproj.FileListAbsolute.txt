@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/PythagoreanTriplet/PythagoreanTriplet/bin/Debug/net6.0/PythagoreanTriplet
+/Users/michaelminnella/Projects/PythagoreanTriplet/PythagoreanTriplet/bin/Debug/net6.0/PythagoreanTriplet.deps.json
+/Users/michaelminnella/Projects/PythagoreanTriplet/PythagoreanTriplet/bin/Debug/net6.0/PythagoreanTriplet.runtimeconfig.json
+/Users/michaelminnella/Projects/PythagoreanTriplet/PythagoreanTriplet/bin/Debug/net6.0/PythagoreanTriplet.dll
+/Users/michaelminnella/Projects/PythagoreanTriplet/PythagoreanTriplet/bin/Debug/net6.0/PythagoreanTriplet.pdb
+/Users/michaelminnella/Projects/PythagoreanTriplet/PythagoreanTriplet/obj/Debug/net6.0/PythagoreanTriplet.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/PythagoreanTriplet/PythagoreanTriplet/obj/Debug/net6.0/PythagoreanTriplet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/PythagoreanTriplet/PythagoreanTriplet/obj/Debug/net6.0/PythagoreanTriplet.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/PythagoreanTriplet/PythagoreanTriplet/obj/Debug/net6.0/PythagoreanTriplet.AssemblyInfo.cs
+/Users/michaelminnella/Projects/PythagoreanTriplet/PythagoreanTriplet/obj/Debug/net6.0/PythagoreanTriplet.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/PythagoreanTriplet/PythagoreanTriplet/obj/Debug/net6.0/PythagoreanTriplet.dll
+/Users/michaelminnella/Projects/PythagoreanTriplet/PythagoreanTriplet/obj/Debug/net6.0/refint/PythagoreanTriplet.dll
+/Users/michaelminnella/Projects/PythagoreanTriplet/PythagoreanTriplet/obj/Debug/net6.0/PythagoreanTriplet.pdb
+/Users/michaelminnella/Projects/PythagoreanTriplet/PythagoreanTriplet/obj/Debug/net6.0/PythagoreanTriplet.genruntimeconfig.cache
+/Users/michaelminnella/Projects/PythagoreanTriplet/PythagoreanTriplet/obj/Debug/net6.0/ref/PythagoreanTriplet.dll

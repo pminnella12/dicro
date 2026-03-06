@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{E1E456C1-3DD0-48E4-AB20-3ED2C8DA48ED}|Default">
+  <MonoDevelop.Ide.ItemProperties.SortingAlgorithms PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SortingAlgorithms/Program.cs">
+    <Files>
+      <File FileName="SortingAlgorithms/Program.cs" Line="54" Column="64" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SortingAlgorithms" expanded="True">
+            <Node name="SortingAlgorithms" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>deltas[i]</Value>
+          <Value>numbersStack</Value>
+          <Value>opStack</Value>
+          <Value>head</Value>
+          <Value>tempNode</Value>
+          <Value>newNode</Value>
+          <Value>arr[i]</Value>
+          <Value>arr[j]</Value>
+          <Value>arr</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/michaelminnella/Projects/SortingAlgorithms/SortingAlgorithms/Program.cs" relfile="SortingAlgorithms/Program.cs" line="254" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

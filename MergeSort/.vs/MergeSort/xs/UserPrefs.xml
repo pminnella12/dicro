@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{3B26033E-EC28-4BBD-980B-7D8DAA434A64}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MergeSort/Program.cs">
+    <Files>
+      <File FileName="MergeSort/Program.cs" Line="56" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MergeSort" expanded="True">
+            <Node name="MergeSort" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>arr</Value>
+          <Value>i</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.MergeSort FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

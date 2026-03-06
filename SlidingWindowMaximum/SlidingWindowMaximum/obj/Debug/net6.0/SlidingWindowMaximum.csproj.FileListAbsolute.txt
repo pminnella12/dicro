@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/SlidingWindowMaximum/SlidingWindowMaximum/bin/Debug/net6.0/SlidingWindowMaximum
+/Users/michaelminnella/Projects/SlidingWindowMaximum/SlidingWindowMaximum/bin/Debug/net6.0/SlidingWindowMaximum.deps.json
+/Users/michaelminnella/Projects/SlidingWindowMaximum/SlidingWindowMaximum/bin/Debug/net6.0/SlidingWindowMaximum.runtimeconfig.json
+/Users/michaelminnella/Projects/SlidingWindowMaximum/SlidingWindowMaximum/bin/Debug/net6.0/SlidingWindowMaximum.dll
+/Users/michaelminnella/Projects/SlidingWindowMaximum/SlidingWindowMaximum/bin/Debug/net6.0/SlidingWindowMaximum.pdb
+/Users/michaelminnella/Projects/SlidingWindowMaximum/SlidingWindowMaximum/obj/Debug/net6.0/SlidingWindowMaximum.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/SlidingWindowMaximum/SlidingWindowMaximum/obj/Debug/net6.0/SlidingWindowMaximum.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/SlidingWindowMaximum/SlidingWindowMaximum/obj/Debug/net6.0/SlidingWindowMaximum.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/SlidingWindowMaximum/SlidingWindowMaximum/obj/Debug/net6.0/SlidingWindowMaximum.AssemblyInfo.cs
+/Users/michaelminnella/Projects/SlidingWindowMaximum/SlidingWindowMaximum/obj/Debug/net6.0/SlidingWindowMaximum.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/SlidingWindowMaximum/SlidingWindowMaximum/obj/Debug/net6.0/SlidingWindowMaximum.dll
+/Users/michaelminnella/Projects/SlidingWindowMaximum/SlidingWindowMaximum/obj/Debug/net6.0/refint/SlidingWindowMaximum.dll
+/Users/michaelminnella/Projects/SlidingWindowMaximum/SlidingWindowMaximum/obj/Debug/net6.0/SlidingWindowMaximum.pdb
+/Users/michaelminnella/Projects/SlidingWindowMaximum/SlidingWindowMaximum/obj/Debug/net6.0/SlidingWindowMaximum.genruntimeconfig.cache
+/Users/michaelminnella/Projects/SlidingWindowMaximum/SlidingWindowMaximum/obj/Debug/net6.0/ref/SlidingWindowMaximum.dll

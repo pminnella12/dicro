@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/sumTwoPairs/sumTwoPairs/bin/Debug/net6.0/sumTwoPairs
+/Users/michaelminnella/Projects/sumTwoPairs/sumTwoPairs/bin/Debug/net6.0/sumTwoPairs.deps.json
+/Users/michaelminnella/Projects/sumTwoPairs/sumTwoPairs/bin/Debug/net6.0/sumTwoPairs.runtimeconfig.json
+/Users/michaelminnella/Projects/sumTwoPairs/sumTwoPairs/bin/Debug/net6.0/sumTwoPairs.dll
+/Users/michaelminnella/Projects/sumTwoPairs/sumTwoPairs/bin/Debug/net6.0/sumTwoPairs.pdb
+/Users/michaelminnella/Projects/sumTwoPairs/sumTwoPairs/obj/Debug/net6.0/sumTwoPairs.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/sumTwoPairs/sumTwoPairs/obj/Debug/net6.0/sumTwoPairs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/sumTwoPairs/sumTwoPairs/obj/Debug/net6.0/sumTwoPairs.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/sumTwoPairs/sumTwoPairs/obj/Debug/net6.0/sumTwoPairs.AssemblyInfo.cs
+/Users/michaelminnella/Projects/sumTwoPairs/sumTwoPairs/obj/Debug/net6.0/sumTwoPairs.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/sumTwoPairs/sumTwoPairs/obj/Debug/net6.0/sumTwoPairs.dll
+/Users/michaelminnella/Projects/sumTwoPairs/sumTwoPairs/obj/Debug/net6.0/refint/sumTwoPairs.dll
+/Users/michaelminnella/Projects/sumTwoPairs/sumTwoPairs/obj/Debug/net6.0/sumTwoPairs.pdb
+/Users/michaelminnella/Projects/sumTwoPairs/sumTwoPairs/obj/Debug/net6.0/sumTwoPairs.genruntimeconfig.cache
+/Users/michaelminnella/Projects/sumTwoPairs/sumTwoPairs/obj/Debug/net6.0/ref/sumTwoPairs.dll

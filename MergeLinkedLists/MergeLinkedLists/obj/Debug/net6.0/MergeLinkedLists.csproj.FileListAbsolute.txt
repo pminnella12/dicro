@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/MergeLinkedLists/MergeLinkedLists/bin/Debug/net6.0/MergeLinkedLists
+/Users/michaelminnella/Projects/MergeLinkedLists/MergeLinkedLists/bin/Debug/net6.0/MergeLinkedLists.deps.json
+/Users/michaelminnella/Projects/MergeLinkedLists/MergeLinkedLists/bin/Debug/net6.0/MergeLinkedLists.runtimeconfig.json
+/Users/michaelminnella/Projects/MergeLinkedLists/MergeLinkedLists/bin/Debug/net6.0/MergeLinkedLists.dll
+/Users/michaelminnella/Projects/MergeLinkedLists/MergeLinkedLists/bin/Debug/net6.0/MergeLinkedLists.pdb
+/Users/michaelminnella/Projects/MergeLinkedLists/MergeLinkedLists/obj/Debug/net6.0/MergeLinkedLists.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/MergeLinkedLists/MergeLinkedLists/obj/Debug/net6.0/MergeLinkedLists.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/MergeLinkedLists/MergeLinkedLists/obj/Debug/net6.0/MergeLinkedLists.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/MergeLinkedLists/MergeLinkedLists/obj/Debug/net6.0/MergeLinkedLists.AssemblyInfo.cs
+/Users/michaelminnella/Projects/MergeLinkedLists/MergeLinkedLists/obj/Debug/net6.0/MergeLinkedLists.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/MergeLinkedLists/MergeLinkedLists/obj/Debug/net6.0/MergeLinkedLists.dll
+/Users/michaelminnella/Projects/MergeLinkedLists/MergeLinkedLists/obj/Debug/net6.0/refint/MergeLinkedLists.dll
+/Users/michaelminnella/Projects/MergeLinkedLists/MergeLinkedLists/obj/Debug/net6.0/MergeLinkedLists.pdb
+/Users/michaelminnella/Projects/MergeLinkedLists/MergeLinkedLists/obj/Debug/net6.0/MergeLinkedLists.genruntimeconfig.cache
+/Users/michaelminnella/Projects/MergeLinkedLists/MergeLinkedLists/obj/Debug/net6.0/ref/MergeLinkedLists.dll

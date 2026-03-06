@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/CountTwos/CountTwos/bin/Debug/net6.0/CountTwos
+/Users/michaelminnella/Projects/CountTwos/CountTwos/bin/Debug/net6.0/CountTwos.deps.json
+/Users/michaelminnella/Projects/CountTwos/CountTwos/bin/Debug/net6.0/CountTwos.runtimeconfig.json
+/Users/michaelminnella/Projects/CountTwos/CountTwos/bin/Debug/net6.0/CountTwos.dll
+/Users/michaelminnella/Projects/CountTwos/CountTwos/bin/Debug/net6.0/CountTwos.pdb
+/Users/michaelminnella/Projects/CountTwos/CountTwos/obj/Debug/net6.0/CountTwos.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/CountTwos/CountTwos/obj/Debug/net6.0/CountTwos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/CountTwos/CountTwos/obj/Debug/net6.0/CountTwos.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/CountTwos/CountTwos/obj/Debug/net6.0/CountTwos.AssemblyInfo.cs
+/Users/michaelminnella/Projects/CountTwos/CountTwos/obj/Debug/net6.0/CountTwos.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/CountTwos/CountTwos/obj/Debug/net6.0/CountTwos.dll
+/Users/michaelminnella/Projects/CountTwos/CountTwos/obj/Debug/net6.0/refint/CountTwos.dll
+/Users/michaelminnella/Projects/CountTwos/CountTwos/obj/Debug/net6.0/CountTwos.pdb
+/Users/michaelminnella/Projects/CountTwos/CountTwos/obj/Debug/net6.0/CountTwos.genruntimeconfig.cache
+/Users/michaelminnella/Projects/CountTwos/CountTwos/obj/Debug/net6.0/ref/CountTwos.dll

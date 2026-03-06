@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{8A8977F3-CD8A-4B6C-BE24-3B788BB5D187}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/michaelminnella/Projects/underdog/underdog/Program.cs" relfile="underdog/Program.cs" line="12" column="1" />
+      <Breakpoint file="/Users/michaelminnella/Projects/underdog/underdog/Program.cs" relfile="underdog/Program.cs" line="17" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.underdog PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="underdog/whereExt.cs">
+    <Files>
+      <File FileName="underdog/Program.cs" Line="13" Column="30" />
+      <File FileName="underdog/whereExt.cs" Line="15" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="underdog" expanded="True">
+            <Node name="underdog" expanded="True">
+              <Node name="whereExt.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

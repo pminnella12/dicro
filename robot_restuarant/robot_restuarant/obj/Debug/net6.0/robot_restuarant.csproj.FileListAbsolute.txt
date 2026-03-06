@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/robot_restuarant/robot_restuarant/bin/Debug/net6.0/robot_restuarant
+/Users/michaelminnella/Projects/robot_restuarant/robot_restuarant/bin/Debug/net6.0/robot_restuarant.deps.json
+/Users/michaelminnella/Projects/robot_restuarant/robot_restuarant/bin/Debug/net6.0/robot_restuarant.runtimeconfig.json
+/Users/michaelminnella/Projects/robot_restuarant/robot_restuarant/bin/Debug/net6.0/robot_restuarant.dll
+/Users/michaelminnella/Projects/robot_restuarant/robot_restuarant/bin/Debug/net6.0/robot_restuarant.pdb
+/Users/michaelminnella/Projects/robot_restuarant/robot_restuarant/obj/Debug/net6.0/robot_restuarant.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/robot_restuarant/robot_restuarant/obj/Debug/net6.0/robot_restuarant.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/robot_restuarant/robot_restuarant/obj/Debug/net6.0/robot_restuarant.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/robot_restuarant/robot_restuarant/obj/Debug/net6.0/robot_restuarant.AssemblyInfo.cs
+/Users/michaelminnella/Projects/robot_restuarant/robot_restuarant/obj/Debug/net6.0/robot_restuarant.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/robot_restuarant/robot_restuarant/obj/Debug/net6.0/robot_restuarant.dll
+/Users/michaelminnella/Projects/robot_restuarant/robot_restuarant/obj/Debug/net6.0/refint/robot_restuarant.dll
+/Users/michaelminnella/Projects/robot_restuarant/robot_restuarant/obj/Debug/net6.0/robot_restuarant.pdb
+/Users/michaelminnella/Projects/robot_restuarant/robot_restuarant/obj/Debug/net6.0/robot_restuarant.genruntimeconfig.cache
+/Users/michaelminnella/Projects/robot_restuarant/robot_restuarant/obj/Debug/net6.0/ref/robot_restuarant.dll

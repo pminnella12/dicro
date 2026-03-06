@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{827C7880-B489-4902-BBDA-3E695A32BB50}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="sumTwoPairs/Program.cs">
+    <Files>
+      <File FileName="sumTwoPairs/Program.cs" Line="40" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="sumTwoPairs" expanded="True">
+            <Node name="sumTwoPairs" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>arr</Value>
+          <Value>i</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.sumTwoPairs PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

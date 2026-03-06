@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/BlackJack/BlackJack/bin/Debug/net6.0/BlackJack
+/Users/michaelminnella/Projects/BlackJack/BlackJack/bin/Debug/net6.0/BlackJack.deps.json
+/Users/michaelminnella/Projects/BlackJack/BlackJack/bin/Debug/net6.0/BlackJack.runtimeconfig.json
+/Users/michaelminnella/Projects/BlackJack/BlackJack/bin/Debug/net6.0/BlackJack.dll
+/Users/michaelminnella/Projects/BlackJack/BlackJack/bin/Debug/net6.0/BlackJack.pdb
+/Users/michaelminnella/Projects/BlackJack/BlackJack/obj/Debug/net6.0/BlackJack.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/BlackJack/BlackJack/obj/Debug/net6.0/BlackJack.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/BlackJack/BlackJack/obj/Debug/net6.0/BlackJack.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/BlackJack/BlackJack/obj/Debug/net6.0/BlackJack.AssemblyInfo.cs
+/Users/michaelminnella/Projects/BlackJack/BlackJack/obj/Debug/net6.0/BlackJack.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/BlackJack/BlackJack/obj/Debug/net6.0/BlackJack.dll
+/Users/michaelminnella/Projects/BlackJack/BlackJack/obj/Debug/net6.0/refint/BlackJack.dll
+/Users/michaelminnella/Projects/BlackJack/BlackJack/obj/Debug/net6.0/BlackJack.pdb
+/Users/michaelminnella/Projects/BlackJack/BlackJack/obj/Debug/net6.0/BlackJack.genruntimeconfig.cache
+/Users/michaelminnella/Projects/BlackJack/BlackJack/obj/Debug/net6.0/ref/BlackJack.dll

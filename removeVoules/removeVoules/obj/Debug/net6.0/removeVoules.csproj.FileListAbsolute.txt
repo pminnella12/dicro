@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/removeVoules/removeVoules/bin/Debug/net6.0/removeVoules
+/Users/michaelminnella/Projects/removeVoules/removeVoules/bin/Debug/net6.0/removeVoules.deps.json
+/Users/michaelminnella/Projects/removeVoules/removeVoules/bin/Debug/net6.0/removeVoules.runtimeconfig.json
+/Users/michaelminnella/Projects/removeVoules/removeVoules/bin/Debug/net6.0/removeVoules.dll
+/Users/michaelminnella/Projects/removeVoules/removeVoules/bin/Debug/net6.0/removeVoules.pdb
+/Users/michaelminnella/Projects/removeVoules/removeVoules/obj/Debug/net6.0/removeVoules.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/removeVoules/removeVoules/obj/Debug/net6.0/removeVoules.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/removeVoules/removeVoules/obj/Debug/net6.0/removeVoules.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/removeVoules/removeVoules/obj/Debug/net6.0/removeVoules.AssemblyInfo.cs
+/Users/michaelminnella/Projects/removeVoules/removeVoules/obj/Debug/net6.0/removeVoules.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/removeVoules/removeVoules/obj/Debug/net6.0/removeVoules.dll
+/Users/michaelminnella/Projects/removeVoules/removeVoules/obj/Debug/net6.0/refint/removeVoules.dll
+/Users/michaelminnella/Projects/removeVoules/removeVoules/obj/Debug/net6.0/removeVoules.pdb
+/Users/michaelminnella/Projects/removeVoules/removeVoules/obj/Debug/net6.0/removeVoules.genruntimeconfig.cache
+/Users/michaelminnella/Projects/removeVoules/removeVoules/obj/Debug/net6.0/ref/removeVoules.dll

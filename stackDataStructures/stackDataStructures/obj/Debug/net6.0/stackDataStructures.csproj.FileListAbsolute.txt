@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/stackDataStructures/stackDataStructures/bin/Debug/net6.0/stackDataStructures
+/Users/michaelminnella/Projects/stackDataStructures/stackDataStructures/bin/Debug/net6.0/stackDataStructures.deps.json
+/Users/michaelminnella/Projects/stackDataStructures/stackDataStructures/bin/Debug/net6.0/stackDataStructures.runtimeconfig.json
+/Users/michaelminnella/Projects/stackDataStructures/stackDataStructures/bin/Debug/net6.0/stackDataStructures.dll
+/Users/michaelminnella/Projects/stackDataStructures/stackDataStructures/bin/Debug/net6.0/stackDataStructures.pdb
+/Users/michaelminnella/Projects/stackDataStructures/stackDataStructures/obj/Debug/net6.0/stackDataStructures.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/stackDataStructures/stackDataStructures/obj/Debug/net6.0/stackDataStructures.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/stackDataStructures/stackDataStructures/obj/Debug/net6.0/stackDataStructures.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/stackDataStructures/stackDataStructures/obj/Debug/net6.0/stackDataStructures.AssemblyInfo.cs
+/Users/michaelminnella/Projects/stackDataStructures/stackDataStructures/obj/Debug/net6.0/stackDataStructures.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/stackDataStructures/stackDataStructures/obj/Debug/net6.0/stackDataStructures.dll
+/Users/michaelminnella/Projects/stackDataStructures/stackDataStructures/obj/Debug/net6.0/refint/stackDataStructures.dll
+/Users/michaelminnella/Projects/stackDataStructures/stackDataStructures/obj/Debug/net6.0/stackDataStructures.pdb
+/Users/michaelminnella/Projects/stackDataStructures/stackDataStructures/obj/Debug/net6.0/stackDataStructures.genruntimeconfig.cache
+/Users/michaelminnella/Projects/stackDataStructures/stackDataStructures/obj/Debug/net6.0/ref/stackDataStructures.dll

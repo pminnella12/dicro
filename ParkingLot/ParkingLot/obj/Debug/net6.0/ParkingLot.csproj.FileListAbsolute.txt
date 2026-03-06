@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/ParkingLot/ParkingLot/bin/Debug/net6.0/ParkingLot
+/Users/michaelminnella/Projects/ParkingLot/ParkingLot/bin/Debug/net6.0/ParkingLot.deps.json
+/Users/michaelminnella/Projects/ParkingLot/ParkingLot/bin/Debug/net6.0/ParkingLot.runtimeconfig.json
+/Users/michaelminnella/Projects/ParkingLot/ParkingLot/bin/Debug/net6.0/ParkingLot.dll
+/Users/michaelminnella/Projects/ParkingLot/ParkingLot/bin/Debug/net6.0/ParkingLot.pdb
+/Users/michaelminnella/Projects/ParkingLot/ParkingLot/obj/Debug/net6.0/ParkingLot.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/ParkingLot/ParkingLot/obj/Debug/net6.0/ParkingLot.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/ParkingLot/ParkingLot/obj/Debug/net6.0/ParkingLot.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/ParkingLot/ParkingLot/obj/Debug/net6.0/ParkingLot.AssemblyInfo.cs
+/Users/michaelminnella/Projects/ParkingLot/ParkingLot/obj/Debug/net6.0/ParkingLot.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/ParkingLot/ParkingLot/obj/Debug/net6.0/ParkingLot.dll
+/Users/michaelminnella/Projects/ParkingLot/ParkingLot/obj/Debug/net6.0/refint/ParkingLot.dll
+/Users/michaelminnella/Projects/ParkingLot/ParkingLot/obj/Debug/net6.0/ParkingLot.pdb
+/Users/michaelminnella/Projects/ParkingLot/ParkingLot/obj/Debug/net6.0/ParkingLot.genruntimeconfig.cache
+/Users/michaelminnella/Projects/ParkingLot/ParkingLot/obj/Debug/net6.0/ref/ParkingLot.dll

@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/LongestIncreasingSequence/LongestIncreasingSequence/bin/Debug/net6.0/LongestIncreasingSequence
+/Users/michaelminnella/Projects/LongestIncreasingSequence/LongestIncreasingSequence/bin/Debug/net6.0/LongestIncreasingSequence.deps.json
+/Users/michaelminnella/Projects/LongestIncreasingSequence/LongestIncreasingSequence/bin/Debug/net6.0/LongestIncreasingSequence.runtimeconfig.json
+/Users/michaelminnella/Projects/LongestIncreasingSequence/LongestIncreasingSequence/bin/Debug/net6.0/LongestIncreasingSequence.dll
+/Users/michaelminnella/Projects/LongestIncreasingSequence/LongestIncreasingSequence/bin/Debug/net6.0/LongestIncreasingSequence.pdb
+/Users/michaelminnella/Projects/LongestIncreasingSequence/LongestIncreasingSequence/obj/Debug/net6.0/LongestIncreasingSequence.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/LongestIncreasingSequence/LongestIncreasingSequence/obj/Debug/net6.0/LongestIncreasingSequence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/LongestIncreasingSequence/LongestIncreasingSequence/obj/Debug/net6.0/LongestIncreasingSequence.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/LongestIncreasingSequence/LongestIncreasingSequence/obj/Debug/net6.0/LongestIncreasingSequence.AssemblyInfo.cs
+/Users/michaelminnella/Projects/LongestIncreasingSequence/LongestIncreasingSequence/obj/Debug/net6.0/LongestIncreasingSequence.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/LongestIncreasingSequence/LongestIncreasingSequence/obj/Debug/net6.0/LongestIncreasingSequence.dll
+/Users/michaelminnella/Projects/LongestIncreasingSequence/LongestIncreasingSequence/obj/Debug/net6.0/refint/LongestIncreasingSequence.dll
+/Users/michaelminnella/Projects/LongestIncreasingSequence/LongestIncreasingSequence/obj/Debug/net6.0/LongestIncreasingSequence.pdb
+/Users/michaelminnella/Projects/LongestIncreasingSequence/LongestIncreasingSequence/obj/Debug/net6.0/LongestIncreasingSequence.genruntimeconfig.cache
+/Users/michaelminnella/Projects/LongestIncreasingSequence/LongestIncreasingSequence/obj/Debug/net6.0/ref/LongestIncreasingSequence.dll

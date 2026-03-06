@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/LRUCache/LRUCache/obj/Debug/net6.0/LRUCache.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/LRUCache/LRUCache/obj/Debug/net6.0/LRUCache.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/LRUCache/LRUCache/obj/Debug/net6.0/LRUCache.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/LRUCache/LRUCache/obj/Debug/net6.0/LRUCache.AssemblyInfo.cs
+/Users/michaelminnella/Projects/LRUCache/LRUCache/obj/Debug/net6.0/LRUCache.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/LRUCache/LRUCache/bin/Debug/net6.0/LRUCache
+/Users/michaelminnella/Projects/LRUCache/LRUCache/bin/Debug/net6.0/LRUCache.deps.json
+/Users/michaelminnella/Projects/LRUCache/LRUCache/bin/Debug/net6.0/LRUCache.runtimeconfig.json
+/Users/michaelminnella/Projects/LRUCache/LRUCache/bin/Debug/net6.0/LRUCache.dll
+/Users/michaelminnella/Projects/LRUCache/LRUCache/bin/Debug/net6.0/LRUCache.pdb
+/Users/michaelminnella/Projects/LRUCache/LRUCache/obj/Debug/net6.0/LRUCache.dll
+/Users/michaelminnella/Projects/LRUCache/LRUCache/obj/Debug/net6.0/refint/LRUCache.dll
+/Users/michaelminnella/Projects/LRUCache/LRUCache/obj/Debug/net6.0/LRUCache.pdb
+/Users/michaelminnella/Projects/LRUCache/LRUCache/obj/Debug/net6.0/LRUCache.genruntimeconfig.cache
+/Users/michaelminnella/Projects/LRUCache/LRUCache/obj/Debug/net6.0/ref/LRUCache.dll

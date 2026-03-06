@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/ShuffleDeck/ShuffleDeck/bin/Debug/net6.0/ShuffleDeck
+/Users/michaelminnella/Projects/ShuffleDeck/ShuffleDeck/bin/Debug/net6.0/ShuffleDeck.deps.json
+/Users/michaelminnella/Projects/ShuffleDeck/ShuffleDeck/bin/Debug/net6.0/ShuffleDeck.runtimeconfig.json
+/Users/michaelminnella/Projects/ShuffleDeck/ShuffleDeck/bin/Debug/net6.0/ShuffleDeck.dll
+/Users/michaelminnella/Projects/ShuffleDeck/ShuffleDeck/bin/Debug/net6.0/ShuffleDeck.pdb
+/Users/michaelminnella/Projects/ShuffleDeck/ShuffleDeck/obj/Debug/net6.0/ShuffleDeck.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/ShuffleDeck/ShuffleDeck/obj/Debug/net6.0/ShuffleDeck.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/ShuffleDeck/ShuffleDeck/obj/Debug/net6.0/ShuffleDeck.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/ShuffleDeck/ShuffleDeck/obj/Debug/net6.0/ShuffleDeck.AssemblyInfo.cs
+/Users/michaelminnella/Projects/ShuffleDeck/ShuffleDeck/obj/Debug/net6.0/ShuffleDeck.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/ShuffleDeck/ShuffleDeck/obj/Debug/net6.0/ShuffleDeck.dll
+/Users/michaelminnella/Projects/ShuffleDeck/ShuffleDeck/obj/Debug/net6.0/refint/ShuffleDeck.dll
+/Users/michaelminnella/Projects/ShuffleDeck/ShuffleDeck/obj/Debug/net6.0/ShuffleDeck.pdb
+/Users/michaelminnella/Projects/ShuffleDeck/ShuffleDeck/obj/Debug/net6.0/ShuffleDeck.genruntimeconfig.cache
+/Users/michaelminnella/Projects/ShuffleDeck/ShuffleDeck/obj/Debug/net6.0/ref/ShuffleDeck.dll

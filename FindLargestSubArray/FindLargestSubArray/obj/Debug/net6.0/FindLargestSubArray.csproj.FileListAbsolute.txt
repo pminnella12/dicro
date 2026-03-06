@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/FindLargestSubArray/FindLargestSubArray/bin/Debug/net6.0/FindLargestSubArray
+/Users/michaelminnella/Projects/FindLargestSubArray/FindLargestSubArray/bin/Debug/net6.0/FindLargestSubArray.deps.json
+/Users/michaelminnella/Projects/FindLargestSubArray/FindLargestSubArray/bin/Debug/net6.0/FindLargestSubArray.runtimeconfig.json
+/Users/michaelminnella/Projects/FindLargestSubArray/FindLargestSubArray/bin/Debug/net6.0/FindLargestSubArray.dll
+/Users/michaelminnella/Projects/FindLargestSubArray/FindLargestSubArray/bin/Debug/net6.0/FindLargestSubArray.pdb
+/Users/michaelminnella/Projects/FindLargestSubArray/FindLargestSubArray/obj/Debug/net6.0/FindLargestSubArray.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/FindLargestSubArray/FindLargestSubArray/obj/Debug/net6.0/FindLargestSubArray.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/FindLargestSubArray/FindLargestSubArray/obj/Debug/net6.0/FindLargestSubArray.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/FindLargestSubArray/FindLargestSubArray/obj/Debug/net6.0/FindLargestSubArray.AssemblyInfo.cs
+/Users/michaelminnella/Projects/FindLargestSubArray/FindLargestSubArray/obj/Debug/net6.0/FindLargestSubArray.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/FindLargestSubArray/FindLargestSubArray/obj/Debug/net6.0/FindLargestSubArray.dll
+/Users/michaelminnella/Projects/FindLargestSubArray/FindLargestSubArray/obj/Debug/net6.0/refint/FindLargestSubArray.dll
+/Users/michaelminnella/Projects/FindLargestSubArray/FindLargestSubArray/obj/Debug/net6.0/FindLargestSubArray.pdb
+/Users/michaelminnella/Projects/FindLargestSubArray/FindLargestSubArray/obj/Debug/net6.0/FindLargestSubArray.genruntimeconfig.cache
+/Users/michaelminnella/Projects/FindLargestSubArray/FindLargestSubArray/obj/Debug/net6.0/ref/FindLargestSubArray.dll

@@ -1,0 +1,15 @@
+/Users/michaelminnella/Projects/findMissingNumber/findMissingNumber/obj/Debug/net6.0/findMissingNumber.csproj.AssemblyReference.cache
+/Users/michaelminnella/Projects/findMissingNumber/findMissingNumber/obj/Debug/net6.0/findMissingNumber.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelminnella/Projects/findMissingNumber/findMissingNumber/obj/Debug/net6.0/findMissingNumber.AssemblyInfoInputs.cache
+/Users/michaelminnella/Projects/findMissingNumber/findMissingNumber/obj/Debug/net6.0/findMissingNumber.AssemblyInfo.cs
+/Users/michaelminnella/Projects/findMissingNumber/findMissingNumber/obj/Debug/net6.0/findMissingNumber.csproj.CoreCompileInputs.cache
+/Users/michaelminnella/Projects/findMissingNumber/findMissingNumber/bin/Debug/net6.0/findMissingNumber
+/Users/michaelminnella/Projects/findMissingNumber/findMissingNumber/bin/Debug/net6.0/findMissingNumber.deps.json
+/Users/michaelminnella/Projects/findMissingNumber/findMissingNumber/bin/Debug/net6.0/findMissingNumber.runtimeconfig.json
+/Users/michaelminnella/Projects/findMissingNumber/findMissingNumber/bin/Debug/net6.0/findMissingNumber.dll
+/Users/michaelminnella/Projects/findMissingNumber/findMissingNumber/bin/Debug/net6.0/findMissingNumber.pdb
+/Users/michaelminnella/Projects/findMissingNumber/findMissingNumber/obj/Debug/net6.0/findMissingNumber.dll
+/Users/michaelminnella/Projects/findMissingNumber/findMissingNumber/obj/Debug/net6.0/refint/findMissingNumber.dll
+/Users/michaelminnella/Projects/findMissingNumber/findMissingNumber/obj/Debug/net6.0/findMissingNumber.pdb
+/Users/michaelminnella/Projects/findMissingNumber/findMissingNumber/obj/Debug/net6.0/findMissingNumber.genruntimeconfig.cache
+/Users/michaelminnella/Projects/findMissingNumber/findMissingNumber/obj/Debug/net6.0/ref/findMissingNumber.dll
