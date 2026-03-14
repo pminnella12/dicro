@@ -84,8 +84,8 @@ var WordSearch = (function ($) {
             return false;
         }
         showStatus('');
-        placements = res.placements || {};
-        renderGrid(res.grid);
+        if (res.placements) placements = res.placements;
+        if (res.grid) renderGrid(res.grid);
         renderWordList(res.words);
         return true;
     }

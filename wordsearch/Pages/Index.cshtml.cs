@@ -49,23 +49,10 @@ public class IndexModel : PageModel
             return new JsonResult(new PuzzleResponse { Success = false, Error = validationError });
 
         state.Words.Add(word);
-
-        var result = WordSearchGenerator.Generate(state.GridSize, state.Words);
-        if (!result.Success)
-        {
-            state.Words.Remove(word);
-            return new JsonResult(new PuzzleResponse
-            {
-                Success = false,
-                Error = $"Grid is too full to place \"{word}\". Try a larger grid or remove some words."
-            });
-        }
-
-        state.WordPlacements = result.Placements;
         HttpContext.Session.SetPuzzleState(state);
 
         await Task.CompletedTask;
-        return new JsonResult(BuildResponse(state, true, result), CamelCaseOptions());
+        return new JsonResult(BuildResponse(state, true, null), CamelCaseOptions());
     }
 
     public async Task<IActionResult> OnPostRemoveWordAsync([FromBody] RemoveWordRequest req)
