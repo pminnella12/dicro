@@ -20,3 +20,60 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* Word search grid */
+#ws-table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.ws-cell {
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1rem;
+    border: 1px solid #dee2e6;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.1s;
+}
+
+.ws-cell.ws-selected {
+    background-color: #cfe2ff;
+}
+
+.ws-cell.ws-found {
+    background-color: #d1e7dd;
+}
+
+/* Word list */
+#word-list li {
+    font-size: 0.95rem;
+    padding: 2px 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#word-list li.word-found {
+    text-decoration: line-through;
+    color: #6c757d;
+    transition: color 0.3s;
+}
+
+#word-list li .remove-word {
+    font-size: 0.75rem;
+    cursor: pointer;
+    color: #adb5bd;
+    line-height: 1;
+    padding: 0 2px;
+    border: none;
+    background: none;
+}
+
+#word-list li .remove-word:hover {
+    color: #dc3545;
+}

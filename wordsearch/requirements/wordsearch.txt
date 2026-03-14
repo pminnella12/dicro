@@ -1,0 +1,25 @@
+Word Search
+
+Summary: Create a website that allows a user to add words to a word search and it randomly
+generates a word search puzzle in a given sized matrix.
+Requirements:
+1. Client enters how many letters squared the word search will be (ex: 10 = 10x10 square.
+14 = 14x14 etc)
+2. Client begins entering words that should be embedded into the word search
+3. Server generates a matrix with the current list of words hidden in it (horizontal, vertical,
+or for extra credit: diagonally) and fills in missing spaces with random letters and
+displays it to the client with the current word list next to it
+
+4. Validate if a word cannot be entered into the word search (ex: word is too long or too
+many words to insert into the matrix size given) and alert the client if the word cannot
+be added
+5. Allow the client to regenerate the word search at will (same words, different matrix by
+hitting a “rebuild” button)
+6. The puzzle should be created and subsequently rebuilt without refreshing the entire
+page (AJAX, Jquery, or some other kind of postback to refresh the partial view without
+reloading the entire page)
+7. Extra credit: add an additional feature you think is interesting and highlight it in the
+readme.
+Hints:
+● It does not need to be persistent. No need to store the words in a database, they can
+store in session variables or something else
