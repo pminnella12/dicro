@@ -11,31 +11,34 @@
     <div class="col-md-3">
         <h4>Word Search</h4>
 
-        <div class="mb-3">
-            <label class="form-label fw-semibold">Grid Size</label>
-            <div class="input-group input-group-sm">
-                <input type="number" id="grid-size-input" class="form-control" min="5" max="30" value="10" />
-                <button id="grid-size-btn" class="btn btn-outline-secondary">Set</button>
+        <div id="input-controls">
+            <div class="mb-3">
+                <label class="form-label fw-semibold">Grid Size</label>
+                <div class="input-group input-group-sm">
+                    <input type="number" id="grid-size-input" class="form-control" min="5" max="30" value="10" />
+                    <button id="grid-size-btn" class="btn btn-outline-secondary">Set</button>
+                </div>
+                <div class="form-text">5–30 (creates N×N grid)</div>
             </div>
-            <div class="form-text">5–30 (creates N×N grid)</div>
-        </div>
 
-        <div class="mb-3">
-            <label class="form-label fw-semibold">Add Word</label>
-            <div class="input-group input-group-sm">
-                <input type="text" id="word-input" class="form-control" placeholder="Enter word" maxlength="30" />
-                <button id="add-word-btn" class="btn btn-primary">Add</button>
+            <div class="mb-3">
+                <label class="form-label fw-semibold">Add Word</label>
+                <div class="input-group input-group-sm">
+                    <input type="text" id="word-input" class="form-control" placeholder="Enter word" maxlength="30" />
+                    <button id="add-word-btn" class="btn btn-primary">Add</button>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <button id="rebuild-btn" class="btn btn-sm btn-success w-100" style="display:none">Generate Puzzle</button>
             </div>
         </div>
 
         <div id="status-msg" class="mb-3"></div>
 
         <div class="mb-3">
-            <div class="d-flex justify-content-between align-items-center mb-1">
-                <span class="fw-semibold">Words to Find</span>
-                <button id="rebuild-btn" class="btn btn-sm btn-outline-primary" style="display:none">Generate</button>
-            </div>
-            <ul id="word-list" class="list-unstyled ps-1 mb-0"></ul>
+            <span class="fw-semibold">Words to Find</span>
+            <ul id="word-list" class="list-unstyled ps-1 mb-0 mt-1"></ul>
         </div>
 
         <div id="congrats-banner" class="alert alert-success" style="display:none">
@@ -45,6 +48,7 @@
 
     <!-- Puzzle grid -->
     <div class="col-md-9">
+        <button id="create-new-btn" class="btn btn-outline-secondary mb-3" style="display:none">+ Create New</button>
         <div id="puzzle-container">
             <p class="text-muted">Set a grid size and add words to generate your puzzle.</p>
         </div>

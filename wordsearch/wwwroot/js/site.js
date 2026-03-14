@@ -106,6 +106,16 @@ var WordSearch = (function ($) {
         $('#rebuild-btn').show();
     }
 
+    function showPuzzleMode() {
+        $('#input-controls').hide();
+        $('#create-new-btn').show();
+    }
+
+    function showEditMode() {
+        $('#input-controls').show();
+        $('#create-new-btn').hide();
+    }
+
     function applyPuzzleResponse(res) {
         if (!res.success && res.error) {
             showStatus(res.error, 'danger');
@@ -153,7 +163,23 @@ var WordSearch = (function ($) {
         foundWords.clear();
         $('#congrats-banner').hide();
         apiCall('Rebuild', {}, function (res) {
-            applyPuzzleResponse(res);
+            if (applyPuzzleResponse(res)) {
+                showPuzzleMode();
+            }
+        });
+    }
+
+    function onCreateNew() {
+        apiCall('SetGrid', { size: 10 }, function (res) {
+            foundWords.clear();
+            placements = {};
+            currentGrid = [];
+            showStatus('');
+            $('#congrats-banner').hide();
+            $('#grid-size-input').val(10);
+            renderGrid(null);
+            renderWordList([]);
+            showEditMode();
         });
     }
 
@@ -247,6 +273,7 @@ var WordSearch = (function ($) {
     $('#word-input').on('keydown', function (e) { if (e.key === 'Enter') onAddWord(); });
 
     $('#rebuild-btn').on('click', onRebuild);
+    $('#create-new-btn').on('click', onCreateNew);
 
     $(document).on('click', '.remove-word', function (e) {
         e.stopPropagation();
@@ -287,6 +314,7 @@ var WordSearch = (function ($) {
             if (initialState.gridSize) {
                 $('#grid-size-input').val(initialState.gridSize);
             }
+            showPuzzleMode();
         }
     }
 
