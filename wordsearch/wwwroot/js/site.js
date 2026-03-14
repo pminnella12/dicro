@@ -1,3 +1,31 @@
+// Dark mode
+(function () {
+    var stored = localStorage.getItem('theme');
+    if (stored === 'dark') {
+        document.documentElement.setAttribute('data-bs-theme', 'dark');
+    }
+    document.addEventListener('DOMContentLoaded', function () {
+        var btn = document.getElementById('dark-mode-toggle');
+        if (!btn) return;
+        function update() {
+            var isDark = document.documentElement.getAttribute('data-bs-theme') === 'dark';
+            btn.textContent = isDark ? '\u2600' : '\u263E';
+        }
+        update();
+        btn.addEventListener('click', function () {
+            var isDark = document.documentElement.getAttribute('data-bs-theme') === 'dark';
+            if (isDark) {
+                document.documentElement.removeAttribute('data-bs-theme');
+                localStorage.setItem('theme', 'light');
+            } else {
+                document.documentElement.setAttribute('data-bs-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+            }
+            update();
+        });
+    });
+})();
+
 var WordSearch = (function ($) {
     // --- State ---
     var currentGrid = [];     // string[][] mirrored client-side
