@@ -154,6 +154,48 @@ var WordSearch = (function ($) {
         });
     }
 
+    function onRandomWord(attemptsLeft) {
+        if (attemptsLeft === undefined) attemptsLeft = 5;
+        if (attemptsLeft <= 0) {
+            showStatus('Could not find a unique random word. Try again.', 'warning');
+            return;
+        }
+
+        var gridSize = parseInt($('#grid-size-input').val(), 10) || 10;
+        var minLen = 3;
+        var maxLen = Math.min(gridSize, 12);
+        var length = Math.floor(Math.random() * (maxLen - minLen + 1)) + minLen;
+
+        var existing = new Set();
+        $('#word-list li').each(function () {
+            existing.add($(this).data('word').toString().toUpperCase());
+        });
+
+        $('#random-word-btn').prop('disabled', true);
+        $.ajax({
+            url: 'https://random-word-api.herokuapp.com/word?length=' + length,
+            type: 'GET',
+            success: function (res) {
+                $('#random-word-btn').prop('disabled', false);
+                if (!res || res.length === 0) {
+                    showStatus('Could not fetch a random word. Try again.', 'warning');
+                    return;
+                }
+                var word = res[0].toUpperCase();
+                if (existing.has(word)) {
+                    onRandomWord(attemptsLeft - 1);
+                    return;
+                }
+                $('#word-input').val(res[0]);
+                $('#word-input').focus();
+            },
+            error: function () {
+                $('#random-word-btn').prop('disabled', false);
+                showStatus('Could not fetch a random word. Try again.', 'warning');
+            }
+        });
+    }
+
     function onRemoveWord(word) {
         foundWords.delete(word.toUpperCase());
         apiCall('RemoveWord', { word: word }, function (res) {
@@ -386,6 +428,7 @@ var WordSearch = (function ($) {
     $('#grid-size-input').on('keydown', function (e) { if (e.key === 'Enter') onSetGrid(); });
 
     $('#add-word-btn').on('click', onAddWord);
+    $('#random-word-btn').on('click', function () { onRandomWord(); });
     $('#word-input').on('keydown', function (e) { if (e.key === 'Enter') onAddWord(); });
 
     $('#rebuild-btn').on('click', onRebuild);
