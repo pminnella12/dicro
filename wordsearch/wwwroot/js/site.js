@@ -247,6 +247,82 @@ var WordSearch = (function ($) {
         }, matched ? 100 : 200);
     }
 
+    function launchConfetti() {
+        var canvas = document.getElementById('confetti-canvas');
+        if (!canvas) {
+            canvas = document.createElement('canvas');
+            canvas.id = 'confetti-canvas';
+            canvas.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999;';
+            document.body.appendChild(canvas);
+        }
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        var ctx = canvas.getContext('2d');
+        var pieces = [];
+        var colors = ['#f44336','#e91e63','#9c27b0','#3f51b5','#2196f3','#00bcd4','#4caf50','#ffeb3b','#ff9800'];
+        for (var i = 0; i < 160; i++) {
+            pieces.push({
+                x: Math.random() * canvas.width,
+                y: Math.random() * -canvas.height,
+                w: 8 + Math.random() * 8,
+                h: 5 + Math.random() * 5,
+                color: colors[Math.floor(Math.random() * colors.length)],
+                vx: (Math.random() - 0.5) * 4,
+                vy: 3 + Math.random() * 5,
+                angle: Math.random() * Math.PI * 2,
+                spin: (Math.random() - 0.5) * 0.2
+            });
+        }
+        var start = null;
+        var duration = 3500;
+        function frame(ts) {
+            if (!start) start = ts;
+            var elapsed = ts - start;
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            var alpha = elapsed < duration - 800 ? 1 : Math.max(0, (duration - elapsed) / 800);
+            ctx.globalAlpha = alpha;
+            pieces.forEach(function (p) {
+                p.x += p.vx;
+                p.y += p.vy;
+                p.angle += p.spin;
+                ctx.save();
+                ctx.translate(p.x + p.w / 2, p.y + p.h / 2);
+                ctx.rotate(p.angle);
+                ctx.fillStyle = p.color;
+                ctx.fillRect(-p.w / 2, -p.h / 2, p.w, p.h);
+                ctx.restore();
+            });
+            if (elapsed < duration) {
+                requestAnimationFrame(frame);
+            } else {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                canvas.remove();
+            }
+        }
+        requestAnimationFrame(frame);
+    }
+
+    function playTada() {
+        try {
+            var ctx = new (window.AudioContext || window.webkitAudioContext)();
+            var notes = [523.25, 659.25, 783.99, 1046.50]; // C5, E5, G5, C6
+            notes.forEach(function (freq, i) {
+                var osc = ctx.createOscillator();
+                var gain = ctx.createGain();
+                osc.connect(gain);
+                gain.connect(ctx.destination);
+                osc.type = 'sine';
+                osc.frequency.value = freq;
+                var start = ctx.currentTime + i * 0.12;
+                gain.gain.setValueAtTime(0, start);
+                gain.gain.linearRampToValueAtTime(0.3, start + 0.02);
+                gain.gain.exponentialRampToValueAtTime(0.001, start + 0.4);
+                osc.start(start);
+                osc.stop(start + 0.4);
+            });
+        } catch (e) { /* audio not supported */ }
+    }
+
     function markWordFound(word) {
         if (foundWords.has(word)) return;
         foundWords.add(word);
@@ -261,7 +337,11 @@ var WordSearch = (function ($) {
 
         var allWords = Object.keys(placements);
         if (allWords.length > 0 && allWords.every(function (w) { return foundWords.has(w); })) {
-            setTimeout(function () { $('#congrats-banner').show(); }, 300);
+            setTimeout(function () {
+                playTada();
+                launchConfetti();
+                $('#congrats-banner').show();
+            }, 300);
         }
     }
 
