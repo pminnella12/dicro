@@ -109,11 +109,13 @@ var WordSearch = (function ($) {
     function showPuzzleMode() {
         $('#input-controls').hide();
         $('#create-new-btn').show();
+        $('#give-up-btn').show();
     }
 
     function showEditMode() {
         $('#input-controls').show();
         $('#create-new-btn').hide();
+        $('#give-up-btn').hide();
     }
 
     function applyPuzzleResponse(res) {
@@ -162,6 +164,7 @@ var WordSearch = (function ($) {
     function onRebuild() {
         foundWords.clear();
         $('#congrats-banner').hide();
+        $('#give-up-btn').prop('disabled', false);
         apiCall('Rebuild', {}, function (res) {
             if (applyPuzzleResponse(res)) {
                 showPuzzleMode();
@@ -176,6 +179,7 @@ var WordSearch = (function ($) {
             currentGrid = [];
             showStatus('');
             $('#congrats-banner').hide();
+            $('#give-up-btn').prop('disabled', false);
             $('#grid-size-input').val(10);
             renderGrid(null);
             renderWordList([]);
@@ -323,7 +327,37 @@ var WordSearch = (function ($) {
         } catch (e) { /* audio not supported */ }
     }
 
-    function markWordFound(word) {
+    function playAwww() {
+        try {
+            var ctx = new (window.AudioContext || window.webkitAudioContext)();
+            // Descending "awww" — slide from ~500Hz down to ~200Hz with a soft waver
+            var osc = ctx.createOscillator();
+            var gain = ctx.createGain();
+            osc.connect(gain);
+            gain.connect(ctx.destination);
+            osc.type = 'sine';
+            var t = ctx.currentTime;
+            osc.frequency.setValueAtTime(480, t);
+            osc.frequency.linearRampToValueAtTime(260, t + 0.6);
+            osc.frequency.linearRampToValueAtTime(200, t + 1.1);
+            gain.gain.setValueAtTime(0, t);
+            gain.gain.linearRampToValueAtTime(0.35, t + 0.05);
+            gain.gain.setValueAtTime(0.35, t + 0.8);
+            gain.gain.linearRampToValueAtTime(0, t + 1.2);
+            osc.start(t);
+            osc.stop(t + 1.2);
+        } catch (e) { /* audio not supported */ }
+    }
+
+    function onGiveUp() {
+        $('#give-up-btn').prop('disabled', true);
+        playAwww();
+        Object.keys(placements).forEach(function (word) {
+            markWordFound(word, true);
+        });
+    }
+
+    function markWordFound(word, suppressCelebration) {
         if (foundWords.has(word)) return;
         foundWords.add(word);
 
@@ -334,6 +368,8 @@ var WordSearch = (function ($) {
         }
 
         $('#word-list li[data-word="' + word + '"]').addClass('word-found');
+
+        if (suppressCelebration) return;
 
         var allWords = Object.keys(placements);
         if (allWords.length > 0 && allWords.every(function (w) { return foundWords.has(w); })) {
@@ -354,6 +390,7 @@ var WordSearch = (function ($) {
 
     $('#rebuild-btn').on('click', onRebuild);
     $('#create-new-btn').on('click', onCreateNew);
+    $('#give-up-btn').on('click', onGiveUp);
 
     $(document).on('click', '.remove-word', function (e) {
         e.stopPropagation();
