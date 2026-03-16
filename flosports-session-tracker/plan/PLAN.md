@@ -205,7 +205,15 @@ Response:
 4. **Tools & AI used** — Claude Code for scaffolding and implementation
 5. **Trade-offs** — no persistence, no deduplication, no auth, no horizontal scaling
 
-**Status**: [ ] Not started
+**Status**: [x] Complete — 2026-03-16
+
+### Completion notes
+- `README.md` created at repo root with all five required sections
+- **Quick start**: `pnpm install`, `pnpm dev`, `pnpm test`
+- **API overview**: all three domain endpoints (`POST /api/events`, `GET /api/streams/:eventId/viewers`, `GET /api/sessions/:sessionId`) plus `/health`, each with a copy-pasteable `curl` example; Swagger UI noted at `/api-docs`
+- **Assumptions**: in-memory storage, 90s activity window, UTC timestamps, single-process, no auth
+- **Tools & AI used**: Claude Code via plan-driven workflow; references `plan/PLAN.md`
+- **Trade-offs**: formatted as a table covering persistence, deduplication, auth, scaling, rate limiting, and observability
 
 ---
 
