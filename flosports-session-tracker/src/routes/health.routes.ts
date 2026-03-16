@@ -8,7 +8,7 @@ const router = Router();
  * /health:
  *   get:
  *     summary: Health check
- *     description: Returns a hello world message
+ *     description: Returns a ok message
  *     responses:
  *       200:
  *         description: OK
@@ -19,7 +19,7 @@ const router = Router();
  *               properties:
  *                 message:
  *                   type: string
- *                   example: hello world
+ *                   example: ok
  */
 router.get('/health', getHealth);
 

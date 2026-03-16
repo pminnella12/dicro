@@ -101,7 +101,16 @@ const WatchEventSchema = z.object({
 #### Response
 - `202 Accepted` with `{ sessionId, state }`
 
-**Status**: [ ] Not started
+**Status**: [x] Complete — 2026-03-16
+
+### Completion notes
+- `zod@4.3.6` added as a dependency (`pnpm add zod`)
+- `src/middleware/errorHandler.ts` — catches `ZodError` → 400 with `issues`; all other errors → 500
+- `src/services/session.service.ts` — `sessionService.processEvent(event)`: `start` event (or no existing session) creates a fresh session; all other events upsert state via `nextState()` switch; `endedAt` set only when transitioning to `ended`
+- `src/controllers/events.controller.ts` — `WatchEventSchema` (Zod) validates request body; branded type casts applied at controller boundary; responds `202 { sessionId, state }`
+- `src/routes/events.routes.ts` — `POST /api/events` → `ingestEvent`
+- `src/app.ts` — wired in `eventsRoutes` and `errorHandler` (error handler registered last)
+- `tsc --noEmit` passes with zero errors
 
 ---
 

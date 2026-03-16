@@ -1,4 +1,4 @@
-import type { SessionId, EventId, WatchSession } from '../types/session.js'
+import type { SessionId, EventId, WatchSession } from '../types/session'
 
 const sessions = new Map<SessionId, WatchSession>()
 
