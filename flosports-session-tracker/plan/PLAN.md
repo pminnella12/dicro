@@ -151,7 +151,14 @@ Response:
 
 `durationMs` = `(lastEventAt - startedAt)` for in-progress sessions; `(endedAt - startedAt)` for ended.
 
-**Status**: [ ] Not started
+**Status**: [x] Complete — 2026-03-16
+
+### Completion notes
+- `src/services/session.service.ts` — added `getActiveViewerCount(eventId)` (filters `state !== 'ended'` AND `lastEventAt > now - 90s`) and `getSessionDetail(sessionId)` (returns session + computed `durationMs` and `eventCount`; uses `endedAt` when present, else `lastEventAt`)
+- `src/controllers/sessions.controller.ts` — `getViewers` → 200 `{ eventId, activeViewers, timestamp }`; `getSession` → 200 full detail or 404 `{ error }`
+- `src/routes/sessions.routes.ts` — `GET /api/streams/:eventId/viewers` and `GET /api/sessions/:sessionId`
+- `src/app.ts` — wired in `sessionsRoutes` before `errorHandler`
+- `tsc --noEmit` passes with zero errors
 
 ---
 

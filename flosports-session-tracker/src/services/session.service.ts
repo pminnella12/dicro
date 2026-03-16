@@ -21,7 +21,28 @@ function nextState(current: SessionState, eventType: WatchEvent['eventType']): S
   }
 }
 
+const ACTIVE_WINDOW_MS = 90_000
+
 export const sessionService = {
+  getActiveViewerCount(eventId: EventId): number {
+    const cutoff = new Date(Date.now() - ACTIVE_WINDOW_MS)
+    return sessionRepository
+      .getSessionsByEventId(eventId)
+      .filter((s) => s.state !== 'ended' && new Date(s.lastEventAt) > cutoff).length
+  },
+
+  getSessionDetail(
+    sessionId: SessionId,
+  ): (WatchSession & { durationMs: number; eventCount: number }) | undefined {
+    const session = sessionRepository.getSession(sessionId)
+    if (!session) return undefined
+
+    const end = session.endedAt ?? session.lastEventAt
+    const durationMs = new Date(end).getTime() - new Date(session.startedAt).getTime()
+
+    return { ...session, durationMs, eventCount: session.events.length }
+  },
+
   processEvent(event: WatchEvent): WatchSession {
     const existing = sessionRepository.getSession(event.sessionId)
 
