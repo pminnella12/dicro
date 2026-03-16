@@ -53,7 +53,12 @@ interface WatchSession {
 ### Repository methods
 - `upsertSession(session)`, `getSession(sessionId)`, `getAllSessions()`, `getSessionsByEventId(eventId)`
 
-**Status**: [ ] Not started
+**Status**: [x] Complete — 2026-03-16
+
+### Completion notes
+- `src/types/session.ts` — branded types (`SessionId`, `UserId`, `EventId`) plus `EventType`, `SessionState`, `WatchEvent`, `WatchSession` interfaces
+- `src/repositories/session.repository.ts` — singleton `sessionRepository` object wrapping a module-level `Map<SessionId, WatchSession>`; exposes `upsertSession`, `getSession`, `getAllSessions`, `getSessionsByEventId`, and `_clear` (test helper)
+- No external dependencies added; pure TypeScript
 
 ---
 
