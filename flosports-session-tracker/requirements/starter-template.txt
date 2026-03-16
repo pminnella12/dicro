@@ -1,0 +1,11 @@
+Create a microservice using the following tech stack
+
+node.js
+express
+vitest
+esbuild
+typescript
+pnpm
+swagger
+zod 
+domain driven design
