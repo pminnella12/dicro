@@ -180,7 +180,15 @@ Response:
 - 400 returned for malformed event payload
 - 404 returned for unknown sessionId
 
-**Status**: [ ] Not started
+**Status**: [x] Complete — 2026-03-16
+
+### Completion notes
+- `src/__tests__/session.service.test.ts` — 14 unit tests covering the state machine (`start`, `pause`, `buffer_start`, `buffer_end`, `end`), the duplicate `start` reset, `heartbeat` updating `lastEventAt`, `getActiveViewerCount` (excludes ended and stale sessions), and `getSessionDetail` (`durationMs` using `lastEventAt` vs `endedAt`)
+- `src/__tests__/events.test.ts` — 8 integration tests for `POST /api/events`: 202 on valid payloads, 400 for missing `sessionId`, non-UUID `sessionId`, invalid `eventType`, missing payload field, invalid `eventTimestamp`, plus state transitions via heartbeat and pause
+- `src/__tests__/sessions.test.ts` — 6 integration tests for `GET /api/streams/:eventId/viewers` (viewer count, excludes ended sessions, unknown eventId) and `GET /api/sessions/:sessionId` (full detail, 404 unknown, `durationMs` from `endedAt`)
+- **Gotcha**: Zod v4 (`4.3.6`) enforces strict RFC 4122 UUID validation (version nibble must be `[1-8]`); test UUIDs must be valid (e.g. `123e4567-e89b-12d3-a456-426614174000`)
+- **Gotcha**: viewer-count tests must use `new Date().toISOString()` for event timestamps so sessions fall within the 90s active window; fixed past timestamps are fine for duration/state tests only
+- All 29 tests pass (`pnpm test`)
 
 ---
 
