@@ -1,0 +1,144 @@
+/* Dark mode */
+:root {
+    --bg: #fff;
+    --text: #212529;
+    --border: #dee2e6;
+    --navbar-bg: #fff;
+    --cell-border: #dee2e6;
+    --cell-selected: #cfe2ff;
+    --cell-found: #d1e7dd;
+    --muted: #6c757d;
+    --remove-btn: #adb5bd;
+}
+
+[data-bs-theme="dark"] {
+    --bg: #1a1a2e;
+    --text: #e0e0e0;
+    --border: #444;
+    --navbar-bg: #16213e;
+    --cell-border: #555;
+    --cell-selected: #1e4d8c;
+    --cell-found: #1a5c38;
+    --muted: #9a9a9a;
+    --remove-btn: #666;
+    color-scheme: dark;
+}
+
+[data-bs-theme="dark"] body {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+[data-bs-theme="dark"] .navbar {
+    background-color: var(--navbar-bg) !important;
+    border-color: var(--border) !important;
+}
+
+[data-bs-theme="dark"] .navbar-brand,
+[data-bs-theme="dark"] .nav-link {
+    color: var(--text) !important;
+}
+
+[data-bs-theme="dark"] .form-control,
+[data-bs-theme="dark"] .form-select {
+    background-color: #2a2a3e;
+    color: var(--text);
+    border-color: var(--border);
+}
+
+[data-bs-theme="dark"] .form-text {
+    color: var(--muted);
+}
+
+[data-bs-theme="dark"] .text-muted {
+    color: var(--muted) !important;
+}
+
+[data-bs-theme="dark"] .footer {
+    border-color: var(--border) !important;
+    color: var(--muted);
+}
+
+[data-bs-theme="dark"] .footer a {
+    color: #8ab4f8;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* Word search grid */
+#ws-table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.ws-cell {
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1rem;
+    border: 1px solid var(--cell-border);
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.1s;
+}
+
+.ws-cell.ws-selected {
+    background-color: var(--cell-selected);
+}
+
+.ws-cell.ws-found {
+    background-color: var(--cell-found);
+}
+
+/* Word list */
+#word-list li {
+    font-size: 0.95rem;
+    padding: 2px 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#word-list li.word-found {
+    text-decoration: line-through;
+    color: var(--muted);
+    transition: color 0.3s;
+}
+
+#word-list li .remove-word {
+    font-size: 0.75rem;
+    cursor: pointer;
+    color: var(--remove-btn);
+    line-height: 1;
+    padding: 0 2px;
+    border: none;
+    background: none;
+}
+
+#word-list li .remove-word:hover {
+    color: #dc3545;
+}
