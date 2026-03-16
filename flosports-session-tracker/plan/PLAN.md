@@ -1,0 +1,202 @@
+# FloSports Session Tracker — Implementation Plan
+
+## Context
+FloSports needs a real-time watch session service to replace their hourly batch pipeline. The goal is to track concurrent viewers and session patterns with ~10-15s latency. This plan implements the full service on top of the existing Express/TypeScript starter template (health check, Swagger, Vitest already wired up).
+
+---
+
+## Architecture
+`routes → controllers → services → repositories`
+
+- **Storage**: In-memory Map (v1 per requirements)
+- **Session lifecycle**: driven by SDK events (`start`, `heartbeat`, `pause`, `resume`, `seek`, `quality_change`, `buffer_start`, `buffer_end`, `end`)
+- **Active session heuristic**: last event received < 90s ago (3× heartbeat interval of 30s)
+- **Validation**: Zod schemas at the controller boundary
+
+---
+
+## Milestone 1 — Types & In-Memory Repository
+**Goal**: Define the domain model and storage layer.
+
+### Files to create
+- `src/types/session.ts` — all domain types (branded types, discriminated unions)
+- `src/repositories/session.repository.ts` — in-memory Map CRUD for sessions
+
+### Key types
+```ts
+type EventType = 'start' | 'heartbeat' | 'pause' | 'resume' | 'seek' | 'quality_change' | 'buffer_start' | 'buffer_end' | 'end'
+
+type SessionState = 'active' | 'paused' | 'buffering' | 'ended'
+
+interface WatchEvent {
+  eventId: string
+  sessionId: string
+  userId: string
+  eventType: EventType
+  eventTimestamp: string
+  receivedAt: string
+  payload: { position: number; quality: string }
+}
+
+interface WatchSession {
+  sessionId: string
+  userId: string
+  eventId: string          // the content/stream being watched
+  state: SessionState
+  startedAt: string
+  lastEventAt: string
+  endedAt?: string
+  events: WatchEvent[]
+}
+```
+
+### Repository methods
+- `upsertSession(session)`, `getSession(sessionId)`, `getAllSessions()`, `getSessionsByEventId(eventId)`
+
+**Status**: [ ] Not started
+
+---
+
+## Milestone 2 — Event Ingestion Endpoint
+**Goal**: Accept and process player SDK events, maintain session state.
+
+### Files to create/modify
+- `src/routes/events.routes.ts`
+- `src/controllers/events.controller.ts`
+- `src/services/session.service.ts`
+- `src/middleware/errorHandler.ts` (centralized error middleware)
+- `src/app.ts` — wire in events router and error handler
+
+### Endpoint
+`POST /api/events`
+
+#### Zod schema
+```ts
+const WatchEventSchema = z.object({
+  sessionId: z.string().uuid(),
+  userId: z.string(),
+  eventId: z.string(),
+  eventType: z.enum(['start','heartbeat','pause','resume','seek','quality_change','buffer_start','buffer_end','end']),
+  eventTimestamp: z.string().datetime(),
+  receivedAt: z.string().datetime(),
+  payload: z.object({ position: z.number(), quality: z.string() })
+})
+```
+
+#### Session state transitions (in `session.service.ts`)
+| Event type | New session state |
+|---|---|
+| start | active |
+| heartbeat, resume, seek, quality_change | active |
+| pause | paused |
+| buffer_start | buffering |
+| buffer_end | active |
+| end | ended |
+
+#### Response
+- `202 Accepted` with `{ sessionId, state }`
+
+**Status**: [ ] Not started
+
+---
+
+## Milestone 3 — Query Endpoints
+**Goal**: Expose concurrent viewer count and session detail.
+
+### Files to create/modify
+- `src/routes/sessions.routes.ts`
+- `src/controllers/sessions.controller.ts`
+- `src/services/session.service.ts` — add query methods
+
+### Endpoints
+
+#### `GET /api/streams/:eventId/viewers`
+Returns concurrent viewer count for a given content event.
+
+**Active session filter**: `state !== 'ended'` AND `lastEventAt > now - 90s`
+
+Response: `{ eventId, activeViewers: number, timestamp: string }`
+
+#### `GET /api/sessions/:sessionId`
+Returns full session detail.
+
+Response:
+```json
+{
+  "sessionId": "...",
+  "userId": "...",
+  "eventId": "...",
+  "state": "active",
+  "durationMs": 120000,
+  "startedAt": "...",
+  "lastEventAt": "...",
+  "eventCount": 5,
+  "events": [...]
+}
+```
+
+`durationMs` = `(lastEventAt - startedAt)` for in-progress sessions; `(endedAt - startedAt)` for ended.
+
+**Status**: [ ] Not started
+
+---
+
+## Milestone 4 — Tests
+**Goal**: Meaningful test coverage of core logic and API surface.
+
+### Files to create
+- `src/__tests__/session.service.test.ts` — unit tests for state machine and duration
+- `src/__tests__/events.test.ts` — integration tests for POST /api/events
+- `src/__tests__/sessions.test.ts` — integration tests for GET endpoints
+
+### Key test cases
+- `start` event creates a new session in `active` state
+- `pause` transitions active → paused
+- `end` transitions any state → ended
+- Duplicate `sessionId` with `heartbeat` updates `lastEventAt`, doesn't create new session
+- Viewer count excludes ended sessions
+- Viewer count excludes sessions with `lastEventAt` > 90s ago
+- 400 returned for malformed event payload
+- 404 returned for unknown sessionId
+
+**Status**: [ ] Not started
+
+---
+
+## Milestone 5 — README & Polish
+**Goal**: Satisfy acceptance criteria and document the project.
+
+### Files to create/modify
+- `README.md`
+
+### README sections
+1. **Quick start** — single command to start, single command to test
+2. **API overview** — endpoint list with example curl commands
+3. **Assumptions** — in-memory storage, 90s activity window, UTC timestamps
+4. **Tools & AI used** — Claude Code for scaffolding and implementation
+5. **Trade-offs** — no persistence, no deduplication, no auth, no horizontal scaling
+
+**Status**: [ ] Not started
+
+---
+
+## Verification
+
+```bash
+# Start
+pnpm dev
+
+# Run all tests
+pnpm test
+
+# Smoke test ingestion
+curl -X POST http://localhost:3000/api/events \
+  -H "Content-Type: application/json" \
+  -d '{"sessionId":"<uuid>","userId":"u1","eventId":"stream-123","eventType":"start","eventTimestamp":"2026-03-16T00:00:00Z","receivedAt":"2026-03-16T00:00:00Z","payload":{"position":0,"quality":"1080p"}}'
+
+# Query viewers
+curl http://localhost:3000/api/streams/stream-123/viewers
+
+# Query session
+curl http://localhost:3000/api/sessions/<uuid>
+```
