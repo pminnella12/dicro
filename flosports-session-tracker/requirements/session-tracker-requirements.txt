@@ -1,0 +1,66 @@
+Watch Session Tracker
+PRD: Real-Time Watch Session Service
+FloSports — Backend Engineering Take-Home
+
+
+Context
+FloSports streams live sporting events to hundreds of thousands of concurrent viewers. Understanding how people watch — when they tune in, how long they stay, and when they drop off — is critical for both the product and business teams.
+Today, our player SDK fires events to a legacy analytics pipeline that batches data hourly. Product is asking for something closer to real-time: a service that can answer “how many people are watching this event right now?” and “what does a typical viewer session look like?” without waiting for the batch job to finish.
+Your task is to build the first version of this service. 
+
+
+What We Know About the Events
+Our player SDK emits events that look roughly like this:
+{
+  "sessionId": "abc-123",
+  "userId": "user-456",
+  "eventType": "heartbeat",
+  "eventId": "evt-789",
+  "eventTimestamp": "2026-02-10T19:32:15.123Z",
+  "receivedAt": "2026-02-10T19:32:15.450Z",
+  "payload": {
+    "eventId": "event-2026-wrestling-finals",
+    "position": 1832.5,
+    "quality": "1080p"
+  }
+}
+The SDK sends start, heartbeat, pause, resume, seek, quality_change, buffer_start, buffer_end, and end events. Heartbeats fire every 30 seconds while the player is active.
+We’re not giving you a starter repo. Set up the project however you think is best.
+
+
+Requirements
+Build a service that:
+Accepts incoming viewer events via a REST API
+Tracks active watch sessions based on the events received
+Exposes two query endpoints:
+Current active session count for a given event
+Session details for a given session ID (duration so far, current state, events received)
+
+
+What the Stakeholders Care About
+These aren’t formal requirements — they’re the kind of things that came up in the planning meeting:
+Product wants the concurrent viewer count to be “close to real-time” — they’re thinking within 10-15 seconds of reality. They’ll use this number in a dashboard.
+Operations does not want to lose events, even during traffic spikes. Events that get dropped are gone forever — there’s no replay mechanism yet.
+Engineering wants this service to stay simple. We already have a complex legacy pipeline; the last thing we need is another system that’s hard to reason about. This is a v1.
+You’ll notice some tension there. That’s intentional — we’re curious how you navigate it.
+
+
+Acceptance Criteria
+The service starts with a single command (documented in your README)
+Tests run with a single command (documented in your README)
+The event ingestion endpoint accepts the events described above
+The query endpoints return reasonable results
+
+
+Technical Expectations
+Language: Node.js Typescript
+Framework: Express
+Storage: Keep it simple. If your language/framework supports in-memory state natively (e.g., a long-running process), in-memory is fine for v1. If your language's execution model doesn't lend itself to in-memory state (e.g., request-scoped runtimes), use whatever lightweight persistence makes sense — SQLite, Redis, a file — and tell us why in the README. Either way, don't over-engineer the storage layer. If you'd do something different in production, write about it rather than building it.
+Testing: We care more about what you chose to test and why than about coverage percentage
+
+
+Your README
+This matters as much as the code. Please address:
+Assumptions you made — This PRD is intentionally broad. What did you assume that wasn’t explicit? What would you have asked the product team if you could?
+Tools and resources used — Tell us what you used to build this: AI assistants, documentation, blog posts, reference projects, boilerplate generators — all of it. For AI specifically, what did you use it for?
+Trade-offs you made — What did you prioritize? What did you deliberately leave out? Where did you cut scope and why?
